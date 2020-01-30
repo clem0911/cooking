@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/recipe.h
+vector
+-
+string
+-
+
+../include/visualizer.h
+recipe.h
+../include/recipe.h
+
+D:/cook/src/main.cpp
+iostream
+-
+recipe.h
+D:/cook/src/recipe.h
+visualizer.h
+D:/cook/src/visualizer.h
+
+D:/cook/src/recipe.cpp
+string
+-
+recipe.h
+D:/cook/src/recipe.h
+
+D:/cook/src/visualizer.cpp
+iostream
+-
+visualizer.h
+D:/cook/src/visualizer.h
+

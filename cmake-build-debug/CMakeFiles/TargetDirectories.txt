@@ -1,0 +1,3 @@
+D:/cook/cmake-build-debug/CMakeFiles/cook.dir
+D:/cook/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/cook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
